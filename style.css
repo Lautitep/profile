@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;400&family=Fjalla+One&display=swap');
+
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+  background-color: #EEEEEE;
+}
+h1{
+  font-family: 'Fjalla One', sans-serif;
+  color: #D18CE0;
+  margin-top: 0px;
+}
+h3{
+  font-weight: 500;
+}
+p{
+  font-weight: 370;
+  font-size: 17px;
+  margin-bottom: 40px;
+}
+
+a{
+  color:#66DE93;
+}
+a:hover {
+  color: #D18CE0;
+}
+
+img{
+  border-radius: 4px;
+}
+
+.gif-size{
+  width: 8%;
+  height: 8%;
+}
+
+.container{
+  text-align: center;
+  width: 1100px;
+  margin: 40px auto;
+}
+
+.card-white{
+  background-color: #EEEEEE;
+  padding: 0px;
+  margin: 20px auto;
+  border-radius: 4px;
+  display: flex;
+}
+.img{
+  width: 430px;
+  height: 528px;
+}
+.picture-right{
+  text-align: right;
+}
+.presentation{
+  text-align: justify;
+  padding: 40px;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  margin-right: 7%;
+  margin-left: 0%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.size-icon{
+  font-size: 35px;
+}
+
+.btn-green{
+  text-decoration: none;
+  background-color: #66DE93;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.btn-green:hover{
+  background-color: #D18CE0;
+  color: white;
+}
+
+.card-follow{
+  font-size: 20px;
+  text-align: center;
+  width: 800px;
+  margin: 40px auto;
+}
+
+@media (max-width: 600px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+  .card-white{
+    display: block;
+  }
+  .img{
+    width: 238px;
+    height: 294px;
+    margin-right: 150px;
+  }
+}
